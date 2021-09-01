@@ -55,7 +55,7 @@
 
   .mipComponentTitleContainer {
     display: flex;
-    margin: 8px 0;
+    margin: 10px 0 8px;
 
     .rectangleContainer {
       min-width: 30px;
@@ -101,7 +101,7 @@
       .fadeThinRectangle {
         width: 2px;
         height: 100%;
-        background: linear-gradient(#76cdc3 0%, #76cdc3 50%, #ffffff);
+        background: linear-gradient( #76cdc3 20%, #ffffff);
       }
       .mipComponentLogo {
         position: absolute;
@@ -113,7 +113,7 @@
 
     .mipComponentSumary {
       padding: 0 8px;
-      font-size: 12px;
+      font-size: 14px;
       line-height: 20px;
       width: 100%;
       font-weight: 400;
