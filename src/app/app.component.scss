@@ -1,0 +1,122 @@
+.container {
+  width: 300px;
+  border: 1px solid black;
+  padding: 10px;
+
+  .mipComponentMipNameContainer {
+    display: flex;
+    align-items: center;
+    .mipComponentLogoContainer {
+      width: 30px;
+      height: 35px;
+
+      .mipComponentLogo {
+        width: 100%;
+      }
+    }
+
+    .mipComponentMipName {
+      padding: 0 8px;
+      color: #b8c5d3;
+      flex-grow: 1;
+      font-size: 16px;
+      line-height: 19px;
+      font-weight: 500;
+    }
+  }
+
+  .mipComponentMipSumary {
+    display: flex;
+
+    .rectangleContainer {
+      min-width: 30px;
+      max-width: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: -1;
+      min-height: 10px;
+
+      .thinRectangle {
+        width: 2px;
+        height: 140%;
+        background-color: #76cdc3;
+      }
+    }
+    .mipSumary {
+      padding: 0 2px;
+      font-size: 12px;
+      line-height: 16px;
+      width: 100%;
+      font-weight: 400;
+      color: #b8c5d3;
+    }
+  }
+
+  .mipComponentTitleContainer {
+    display: flex;
+    margin: 8px 0;
+
+    .rectangleContainer {
+      min-width: 30px;
+      max-width: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: -1;
+      min-height: 10px;
+      position: relative;
+
+      .thinRectangle {
+        width: 2px;
+        height: 200%;
+        background-color: #76cdc3;
+      }
+      .mipComponentLogo {
+        position: absolute;
+        width: 20px;
+       left:50%;
+       transform:translateX(-2px);
+      }
+    }
+
+    .mipComponentTitle {
+      padding: 0 16px;
+    }
+  }
+
+  .mipComponenSumary {
+    display: flex;
+
+    .rectangleContainer {
+      min-width: 30px;
+      max-width: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: -1;
+      min-height: 10px;
+      position: relative;
+
+      .fadeThinRectangle {
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(#76cdc3 0%, #76cdc3 50%, #ffffff);
+      }
+      .mipComponentLogo {
+        position: absolute;
+        width: 20px;
+        padding-left: 17px;
+        height: 120%;
+      }
+    }
+
+    .mipComponentSumary {
+      padding: 0 8px;
+      font-size: 12px;
+      line-height: 20px;
+      width: 100%;
+      font-weight: 400;
+    }
+  }
+}
